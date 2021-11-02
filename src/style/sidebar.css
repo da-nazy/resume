@@ -1,0 +1,26 @@
+.sidebar{
+     display:'flex';
+     justify-content:'center';
+     flex-direction:'colum';
+    border:1px solid black;
+    background-image: linear-gradient(to top, #857CFA , #F16E91);
+    height:100vh;
+    margin-bottom:10px;
+}
+.sidebar .navButton{
+ font-size:20px;
+ color:#fff;
+ margin:10;
+
+}
+
+.sidewrapper{
+    height:50%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+   margin-top: 50px;
+}
+.sidebar .navButton:hover{
+ cursor: pointer;
+}
