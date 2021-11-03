@@ -1,0 +1,8 @@
+.about{
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-color:#F0F1F6;
+}
