@@ -1,6 +1,10 @@
 import '../style/sidebar.css';
 export default function Sidebar() {
     const nav=[
+        {name:'',
+          loc:'',
+        },
+        
         {
             name:"About",
             loc:'about',

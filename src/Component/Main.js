@@ -46,7 +46,7 @@ export default function Main() {
                 </div>
            </div>
            <div style={{height:'25%',backgroundColor:'#fff',display:'flex', flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
-               <div style={{height:'70%',width:'55%',display:'flex',alignSelf:'center',display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'space-evenly'}}>
+               <div style={{height:'70%',width:'55%',alignSelf:'center',display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'space-evenly'}}>
               {socialHandle.map((e,i)=>{
                return  <div key={i} style={{width:'18%',height:'75%',justifyContent:'space-evenly'}}>
                  <i style={{color:'#9DA3A9',fontSize:35}}> {e.icon}</i>
