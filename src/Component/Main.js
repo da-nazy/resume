@@ -29,6 +29,11 @@ export default function Main() {
             name:'Github',
             icon:<FaGithub/>,
             func:'',
+        },
+        {
+            name:'Whatsapp',
+            icon:<FaWhatsapp/>,
+            func:'',
         }
     ]
     return (
@@ -42,7 +47,7 @@ export default function Main() {
                 <button style={{ justifyContent:'center',display:'flex',flexDirection:'row', height:'12%', width:'25%',borderRadius:20,backgroundColor:'#867CF4',color:'#fff',fontWeight:'500',border:'1px solid transparent',textAlign:'center',alignItems:'center',fontSize:15,boxShadow:" 0 0 10px #ccc"}}>Hire me</button>
                 </div>
                 <div style={{width:'35%',alignSelf:'center'}} >
-                    <img  src={avatar} style={{width:'60%',height:'20%',borderRadius:'50%',backgroundSize:'contain',boxShadow:" 1px 1px 5px #cc9"}}/>
+                    <img  src={avatar}  alt={"My image"} style={{width:'60%',height:'20%',borderRadius:'50%',backgroundSize:'contain',boxShadow:" 1px 1px 5px #cc9"}}/>
                 </div>
            </div>
            <div style={{height:'25%',backgroundColor:'#fff',display:'flex', flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
