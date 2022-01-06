@@ -14,15 +14,22 @@
 }
 
 .sidewrapper{
-    height:50%;
+    height:70%;
     display:flex;
     justify-content:space-evenly;
     flex-direction:column;
    margin-top: 50px;
 }
 
-.sidebar .sidewrapper>h3:nth-child(2):hover{
-    border:1px solid red;
+.sidebar .sidewrapper>h3:hover{
+    cursor:pointer;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-color:#F3F4F8;
+    height:40px;
+    margin-left:10px;
+    padding-top:10px;
+    color:#857CFA;
 }
 
 
