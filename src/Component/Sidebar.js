@@ -1,4 +1,4 @@
-import { Link,useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../style/sidebar.css";
 export default function Sidebar() {
 
