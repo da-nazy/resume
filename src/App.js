@@ -1,7 +1,7 @@
 import './App.css';
 import Sidebar from './Component/Sidebar';
 import Main from './Component/Main';
-import { BrowserRouter as Router, Route ,Link, Routes,Outlet} from "react-router-dom";
+import { BrowserRouter as Router, Route , Routes} from "react-router-dom";
 function App() {
   
   return (
