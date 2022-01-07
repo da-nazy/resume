@@ -1,10 +1,10 @@
 
 import underconst from "../../Asset/Image/underconst.gif";
-export const Underconstruction=(name)=>{
+export const Underconstruction=({name})=>{
     
     return (
         <div>
-            <h1>{name} is Underconstruction</h1>
+            <h1>{name}</h1>
             <img
              src={underconst}
              alt={"Under construction"}
@@ -16,7 +16,7 @@ export const Underconstruction=(name)=>{
 
 const style={
     img:{
-        width:50,
-        height:100, 
+        width:500,
+        height:500, 
     }
 }
